@@ -1,0 +1,1 @@
+just to generate CDL channel in time domain (in sequence form)
