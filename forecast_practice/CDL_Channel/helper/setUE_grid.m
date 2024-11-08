@@ -8,7 +8,7 @@ function UE_grid = setUE_grid(UE_grid, plot_flag, idx_grid, idx_point, idx_UE, b
     UE_grid{idx_grid}.rays{idx_point} = raytrace(bsSite,ueSite,pm,"Type","pathloss");
     if plot_flag
         show(ueSite);
-        plot(UE_grid{idx_grid}.rays{idx_point}{1})
+        plot(UE_grid{idx_grid}.rays{idx_point}{1}(1)) % just show the first ray
     end
     
     % temp variables
